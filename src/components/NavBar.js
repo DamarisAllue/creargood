@@ -7,9 +7,11 @@ import igicon from "../assets/ig.png"
 import inicon from "../assets/in.png"
 import yticon from "../assets/yt.png"
 import { Link } from "react-router-dom";
-import { BsYoutube, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
+  const navigate = useNavigate();
+  const itemUrl = "/Productos";
   return (
     <Navbar collapseOnSelect expand="lg" className="">
       <Container>
@@ -23,7 +25,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="d-flex nav-items m-auto">
-            <NavDropdown title="Productos" id="collasible-nav-dropdown">
+            <NavDropdown title="Productos" id="collasible-nav-dropdown" onClick={() => navigate(itemUrl)}>
               <NavDropdown.Item href="#action/3.1">
                 TARJETAS & DIJES
               </NavDropdown.Item>

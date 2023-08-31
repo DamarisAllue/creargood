@@ -1,6 +1,10 @@
+import { Layout } from './Layout';
+
 const Faq = () => {
     return ( 
-        <h1>Funciona</h1>
+        <Layout >
+
+        </Layout>
      );
 }
  

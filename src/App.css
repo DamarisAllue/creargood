@@ -7,6 +7,7 @@
 }
 .navbar{
     height: 72px;
+    background-color: #fff;
 }
 .container{
     min-width: 100%;
@@ -29,7 +30,15 @@
     justify-content: space-between;
     gap: 40px;
 }
-
+/* .banner-container{
+    width: 100vw;
+    height: 45vh;
+} */
+.banner-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 @media  screen and (max-width:992px) {
     .brand{
         margin: 0;

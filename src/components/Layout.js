@@ -1,9 +1,13 @@
 import NavBar from "../components/NavBar";
-export const Layout = ({children}) => {
+import Banner from "./Banner";
+
+export const Layout = ({children, fondo}) => {
     return (
         <div className="layout">
             <NavBar />
+            <Banner fondo={fondo}/>
             {children}
+
         </div>
     )
 }
