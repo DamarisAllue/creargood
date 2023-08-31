@@ -1,8 +1,7 @@
 import React from 'react';
 import wave from '../assets/wave.svg';
-import banner from "../assets/imagenHERO.png"
 
-const Banner = ({fondo}) => { // Añadimos banner como prop
+const Banner = ({fondo, banner}) => { // Añadimos banner como prop
     const containerStyle = {
         position: 'relative',
         height: '400px',

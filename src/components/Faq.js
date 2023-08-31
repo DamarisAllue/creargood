@@ -1,8 +1,9 @@
 import { Layout } from './Layout';
+import banner from "../assets/imagenHERORosa.png"
 
 const Faq = () => {
     return ( 
-        <Layout >
+        <Layout banner={banner}>
 
         </Layout>
      );

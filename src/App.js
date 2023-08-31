@@ -4,7 +4,7 @@ import banner from "./assets/imagenHERO.png"
 
 function App() {
   return (
-    <Layout imagen={banner}>
+    <Layout banner={banner}>
       <div className="App">
       </div>
     </Layout>
