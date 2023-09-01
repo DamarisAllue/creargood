@@ -4,49 +4,82 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
+}
+
+.container {
+    background: #fff;
 }
 
 .navbar {
     height: 72px;
     background-color: #fff;
     font-family: var(--textos);
+    z-index: 100;
+    padding: 0;
 }
 
-.container {
-    min-width: 100%;
-}
 
-.nav-link {
-    color: var(--textos, #424242);
-    font-family: Barlow;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
 
-.brand {
-    width: 125px;
-    height: 64px;
-    object-fit: cover;
-    margin-left: 14vw;
-}
+    .container {
+        min-width: 100%;
+    }
 
-.nav-items {
-    justify-content: space-between;
-    gap: 40px;
-}
+    .nav-link {
+        color: var(--textos, #424242);
+        font-family: Barlow;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
 
-.navbar-brand {
-    cursor: pointer;
-}
+    .brand {
+        width: 125px;
+        height: 64px;
+        object-fit: cover;
+        margin-left: 14vw;
+    }
 
-.banner-img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
+    .nav-items {
+        justify-content: space-between;
+        gap: 40px;
+    }
+
+    .navbar-brand {
+        cursor: pointer;
+    }
+
+    .banner-img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+
+
+    @media screen and (max-width:992px) {
+        .brand {
+            margin: 0;
+        }
+
+        .navbar-brand {
+            order: 2;
+            margin: 0 auto;
+        }
+
+        .nav-items {
+            gap: 26px;
+        }
+
+        .nav-icons {
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+
+
 
 
 .footer {
@@ -81,28 +114,6 @@
 .footer-copyright {
     text-align: center;
     margin-top: 50px;
-}
-
-@media screen and (max-width:992px) {
-    .brand {
-        margin: 0;
-    }
-
-    .navbar-brand {
-        order: 2;
-        margin: 0 auto;
-    }
-
-    .nav-items {
-        gap: 26px;
-    }
-
-    .nav-icons {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        gap: 20px;
-    }
 }
 
 @media screen and (max-width:768px) {
