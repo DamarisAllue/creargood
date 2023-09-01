@@ -3,13 +3,18 @@
 }
 *{
     box-sizing: border-box;
-    margin: 0;
+}
+.container{
+    background: #fff;
 }
 .navbar{
     height: 72px;
     background-color: #fff;
     font-family: var(--textos);
+    z-index: 100;
+    padding: 0;
 }
+
 .container{
     min-width: 100%;
 }
@@ -39,6 +44,7 @@
     width: 100%;
     object-fit: cover;
 }
+
 
 @media  screen and (max-width:992px) {
     .brand{

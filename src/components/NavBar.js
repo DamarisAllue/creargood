@@ -25,17 +25,17 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="d-flex nav-items m-auto">
-            <NavDropdown title="Productos" id="collasible-nav-dropdown" onClick={() => navigate(itemUrl)}>
-              <NavDropdown.Item href="#action/3.1">
+            <NavDropdown title="Productos" id="collasible-nav-dropdown" >
+              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
                 TARJETAS & DIJES
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
                 DIJES DE MESA
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
                 REGALOS & RECUERDOS
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">TOPPERS 3D</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate(itemUrl)}>TOPPERS 3D</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">
                 REGALOS INSTITUCIONALES
               </NavDropdown.Item>
