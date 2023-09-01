@@ -7,7 +7,7 @@ export const Layout = ({children, fondo, banner, titulo}) => {
             <NavBar />
             <Banner fondo={fondo} banner={banner} titulo={titulo}/>
             {children}
-
+            
         </div>
     )
 }
