@@ -41,8 +41,8 @@ const NavBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
             <Link className="nav-link mx-1" to="/Faq">Preguntas Frecuentes</Link>
-            <Link className="nav-link mx-1" to="/">¿Quienes Somos?</Link>
-            <Link className="nav-link mx-1" to="/">Contacto</Link>
+            <Link className="nav-link mx-1" to="/quienessomos">¿Quienes Somos?</Link>
+            <Link className="nav-link mx-1" to="/contacto">Contacto</Link>
             <Nav className="nav-icons">
               <Link className="nav-link" to="/">
                 <img src={igicon}></img>
@@ -61,7 +61,7 @@ const NavBar = () => {
   );
 };
 
-{
+
   /* <div>
             
         <Navbar collapseOnSelect expand="md" fixed='top'>
@@ -82,6 +82,6 @@ const NavBar = () => {
         </Navbar>
 
     </div> */
-}
+
 
 export default NavBar;
