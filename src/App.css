@@ -239,6 +239,7 @@ width: 400px;
   padding: 10px;
 }
 
+
 @media screen and (max-width: 992px) {
     .brand {
         margin: 0;

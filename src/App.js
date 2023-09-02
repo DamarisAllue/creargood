@@ -1,7 +1,8 @@
 import "./App.css";
 import { Layout } from "./components/Layout";
 import banner from "./assets/imagenHERO.png";
-import imagen from "./assets/home1.png";
+import { home_mock } from "./mocks/home_mock";
+import HomeItem from "./components/HomeItem";
 
 function App() {
   return (
@@ -17,16 +18,7 @@ function App() {
             Diseños creativos a medida de tus necesidades
           </p>
         </div>
-        <div className="row my-5">
-          <div className="col-sm-6 ">
-            <img src={imagen} alt="Producto 1" style={{objectFit:"cover", width:"100%"}}/>
-          </div>
-          <div className="col-sm-6 home-item-info">
-            <p className="home-item-title my-2">Servicio de Diseño y modelado 3D</p>
-            <p className="home-item-texto my-3">Diseñamos de acuerdo a tus necesidades y el tema que estés buscando, empleando la digitalización y programas 3D para crear soluciones personalizadas. Además, te mantendremos involucrado en todo el proceso.</p>
-            <button className="home-item-btn my-3">CONSULTAR</button>
-          </div>
-        </div>
+        {home_mock.map((data, index) => <HomeItem item={data} index={index}/>)}
       </div>
     </Layout>
   );
