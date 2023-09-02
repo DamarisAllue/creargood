@@ -14,7 +14,7 @@ const NavBar = () => {
   const itemUrl = "/Productos";
   return (
     <Navbar collapseOnSelect expand="lg" className="" >
-      <Container>
+      <Container style={{background: "#fff"}}>
         <Navbar.Brand onClick={() => {navigate('/')}}>
           <img
             src={brand}
