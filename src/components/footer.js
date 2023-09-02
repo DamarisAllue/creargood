@@ -8,7 +8,9 @@ import { useNavigate } from "react-router-dom";
 import igicon from "../assets/ig.png"
 import inicon from "../assets/in.png"
 import yticon from "../assets/yt.png"
-
+import wspicon from "../assets/whatsappicon.png"
+import ubiicon from "../assets/ubicacionicon.png"
+import mailicon from "../assets/mailicon.png"
 
 
 const Footer = () => {
@@ -26,9 +28,25 @@ const Footer = () => {
         </Col>
 
         <Col md={6}>
-          <Stack gap={3}><div className="p-2">First item</div>
-            <div className="p-2">Second item</div>
-            <div className="p-2">Third item</div>
+          <Stack gap={3}>
+            <Link to="/">
+              <div className="footer-contactos">
+                <img src={ubiicon} className="contact-icon" alt="ubicacion"></img>
+                <p>Córdoba Cápital, Alta Córdoba</p>
+              </div>
+            </Link>
+            <Link to="/">
+              <div className="footer-contactos">
+                <img src={wspicon} className="contact-icon" alt="numero de whatsapp"></img>
+                <p>+54 9-351 5913974</p>
+              </div>
+            </Link>
+            <Link to="/">
+              <div className="footer-contactos">
+                <img src={mailicon} className="contact-icon" alt="correo electronico"></img>
+                <p>CrearGood1@gmail.com</p>
+              </div>
+            </Link>
           </Stack>
         </Col>
 
@@ -38,17 +56,16 @@ const Footer = () => {
             <div className="p-2">
               <div className="footer-icons">
                 <Link className="footer-link" to="/">
-                  <img src={igicon} className="footer-icon"></img>
+                  <img src={igicon} className="footer-icon" alt="instagram"></img>
                 </Link>
                 <Link className="footer-link" to="/">
-                  <img src={inicon} className="footer-icon"></img>
+                  <img src={inicon} className="footer-icon" alt="linkedin"></img>
                 </Link>
                 <Link className="footer-link" to="/">
-                  <img src={yticon} className="footer-icon"></img>
+                  <img src={yticon} className="footer-icon" alt="youtube"></img>
                 </Link>
               </div>
             </div>
-
           </Stack>
         </Col>
       </Row>
