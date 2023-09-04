@@ -25,7 +25,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="d-flex nav-items m-auto">
-            <NavDropdown title="Productos" id="collasible-nav-dropdown" >
+            <NavDropdown title="Productos" id="collasible-nav-dropdown" onClick={() => navigate(itemUrl)}>
               <NavDropdown.Item onClick={() => navigate(itemUrl)}>
                 TARJETAS & DIJES
               </NavDropdown.Item>
@@ -36,7 +36,7 @@ const NavBar = () => {
                 REGALOS & RECUERDOS
               </NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate(itemUrl)}>TOPPERS 3D</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
                 REGALOS INSTITUCIONALES
               </NavDropdown.Item>
             </NavDropdown>

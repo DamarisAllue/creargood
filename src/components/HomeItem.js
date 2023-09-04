@@ -3,7 +3,7 @@
 const HomeItem = ({item, index}) => {
     const {titulo, texto, img} = item
     console.log(item)
-    const styles =index % 2 !== 0 ? {order: 12} : {order: -1}
+    const styles =index % 2 == 0 ? {order: 12, color: "#F2BD67"} : {order: -1, color: "#F6B2BF"}
 
     return ( 
         <div className="row my-5">
