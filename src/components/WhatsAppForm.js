@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { Form, Button } from 'react-bootstrap';
 
 const WhatsAppForm = () => {
     const [name, setName] = useState('');
-    const [phoneNumber, setPhoneNumber] = useState('');
+    const [clientNumber, setPhoneNumber] = useState('');
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
 
@@ -28,7 +29,7 @@ const WhatsAppForm = () => {
           *nombre y apellido*%0A
             ${name}%0A
           *Número de teléfono:*%0A
-            ${phoneNumber}%0A
+            ${clientNumber}%0A
           *Correo electrónico*%0A
             ${email}%0A
           *Mensaje*%0A
@@ -38,56 +39,65 @@ const WhatsAppForm = () => {
 
     return (
         <div>
-            <h2>Formulario de WhatsApp</h2>
-            <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name"></label>
-                    <input
-                        type="text"
-                        id="name"
-                        value={name}
-                        onChange={handleNameChange}
-                        placeholder='Tu nombre'
-                        required
-                    />
-                </div>
-                <div>
-                    <label htmlFor="email"></label>
-                    <input
-                        type="email"
-                        id="email"
-                        value={email}
-                        onChange={handleEmailChange}
-                        placeholder='Email'
-                        required
-                    />
-                </div>
-                <div>
-                    <label htmlFor="phoneNumber"></label>
-                    <input
-                        type="tel"
-                        id="phoneNumber"
-                        value={phoneNumber}
-                        onChange={handlePhoneNumberChange}
-                        placeholder='Telefono'
-                        required
-                    />
-                </div>
-                <div>
-                    <label htmlFor="message"></label>
-                    <textarea
-                        id="message"
-                        rows="4"
-                        cols="50"
-                        value={message}
-                        onChange={handleMessageChange}
-                        placeholder='Tu mensaje'
-                        required
-                    />
-                </div>
-                <br />
-                <button type="submit">Enviar a WhatsApp</button>
-            </form>
+
+            <div className='corchetes-contacto'>
+                <h1 className='titulo-contacto'>¿Tienes alguna consulta o algún proyecto en mente?<br />Contactanos!Te responderemos lo antes posible!</h1>
+            </div>
+            <div className='form-container'>
+                <Form className="form-contacto" onSubmit={handleSubmit}>
+                    <div className='form-contacto-container'>
+                        <Form.Group controlId="name" className="custom-form-group">
+                            <Form.Control
+                                type="text"
+                                value={name}
+                                onChange={handleNameChange}
+                                placeholder="Tu nombre"
+                                required
+                                className="custom-input"
+                            />
+                        </Form.Group>
+
+                        <Form.Group controlId="email" className="custom-form-group">
+                            <Form.Control
+                                type="email"
+                                value={email}
+                                onChange={handleEmailChange}
+                                placeholder="Email"
+                                required
+                                className="custom-input"
+                            />
+                        </Form.Group>
+
+                        <Form.Group controlId="phoneNumber" className="custom-form-group">
+                            <Form.Control
+                                type="tel"
+                                value={clientNumber}
+                                onChange={handlePhoneNumberChange}
+                                placeholder="Teléfono"
+                                required
+                                className="custom-input"
+                            />
+                        </Form.Group>
+
+                        <Form.Group controlId="message" className="custom-form-group">
+                            <Form.Control
+                                as="textarea"
+                                rows={4}
+                                value={message}
+                                onChange={handleMessageChange}
+                                placeholder="Tu mensaje"
+                                required
+                                className="custom-input"
+                            />
+                        </Form.Group>
+                    </div>
+                    <div className='form-button-container'>
+                        <Button type="submit" className='boton'>ENVIAR</Button>
+                    </div>
+                    <div className="wave"></div>
+                </Form>
+
+            </div>
         </div>
     );
 };
