@@ -1,5 +1,5 @@
 import { Layout } from './Layout';
-import WhatsAppForm from './Whatsappform.js';
+import WhatsAppForm from './whatsappform';
 const contacto = () => {
     const fondo = '#F6B2BF'
     const titulo = "Contacto";

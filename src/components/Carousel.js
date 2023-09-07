@@ -19,6 +19,8 @@ const Carousel = ({ items }) => {
         slidesPerView={1}
         spaceBetween={10}
         navigation={true} //botones 
+        grabCursor={true}
+        loop={true}
         breakpoints={{
           640: {
             slidesPerView: 2,
@@ -34,7 +36,7 @@ const Carousel = ({ items }) => {
       >
         {slides.map((data) => (
           <SwiperSlide>
-            <img src={data.img} />
+            <img src={data.img} className="carousel-img"/>
           </SwiperSlide>
         ))}
       </Swiper>
