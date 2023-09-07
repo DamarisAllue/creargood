@@ -454,14 +454,15 @@ button[type="submit"]:hover {
   /* Invertir verticalmente la ola */
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1024px) {
   .corchetes-contacto {
     background-image: url(./assets/corchetes.png);
     background-repeat: no-repeat;
-    background-size: 100% 75%;
+    background-size: 100% 100%;
+    margin-left: 30%;
+    margin-right: 30%;
     background-position-y: center;
-    margin-left: 25%;
-    margin-right: 25%;
+    max-height: 100px;
   }
 }
 
@@ -489,4 +490,41 @@ button[type="submit"]:hover {
 
 .my-float{
 	margin-top:16px;
+}
+
+/* ¿quienes somos? */
+
+@media screen and (min-width: 1024px) {
+  .corchetes-quienessomos1 {
+    background-image: url(./assets/corchetes.png);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-position-y: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+.quienessomos-item-title{
+color: #F6B2BF;
+font-family: Pacifico;
+font-size: 71px;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+padding-top: 100px;
+
+}
+
+.quienessomos-item-texto{
+color: #000;
+font-family: Barlow;
+font-size: 19px;
+font-weight: 400;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 10%;
+margin-right: 10%;
 }
