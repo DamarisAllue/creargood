@@ -5,12 +5,14 @@ const ProductList = () => {
     const fondo = '#F6B2BF'
     const titulo = "Productos";
 
-    
-    return ( 
+
+    return (
         <Layout fondo={fondo} titulo={titulo}>
-            {products_mock.map((data) => <Carousel items={data}/>)}
+            <div className="home">
+                {products_mock.map((data) => <Carousel items={data} />)}
+            </div>
         </Layout>
-     );
+    );
 }
- 
+
 export default ProductList;
