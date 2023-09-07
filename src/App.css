@@ -362,7 +362,9 @@
   margin-top: 60px;
   padding-top: 50px;
   background-color: #F6B2BF;
-  width: 687px;
+  width: 70%;
+  max-width: 687px;
+  min-width: 300px;
   height: 565px;
   border-radius: 48px 48px 48px 48px;
 }
@@ -385,6 +387,8 @@
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .custom-input {
@@ -405,6 +409,7 @@
 .custom-input:focus {
   background-color: transparent;
 }
+
 
 /* Estilos para el botón personalizado */
 
@@ -453,11 +458,16 @@ button[type="submit"]:hover {
   .corchetes-contacto {
     background-image: url(./assets/corchetes.png);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 100px;
+    background-size: 100% 75%;
+    background-position-y: center;
     margin-left: 25%;
     margin-right: 25%;
   }
+}
+
+.titulo-contacto{
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 /* whatsapp floater*/
