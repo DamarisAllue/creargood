@@ -30,7 +30,7 @@
 .nav-link {
   color: var(--textos, #424242);
   font-family: Barlow;
-  font-size: 14px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -321,7 +321,13 @@ margin: 0 auto;
   background: transparent;
   padding: 10px;
   width: 136px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.home-more-btn-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .home-products-title {

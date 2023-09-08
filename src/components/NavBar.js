@@ -44,15 +44,9 @@ const NavBar = () => {
             <Link className="nav-link mx-1" to="/quienessomos">¿Quienes Somos?</Link>
             <Link className="nav-link mx-1" to="/contacto">Contacto</Link>
             <Nav className="nav-icons">
-              <Link className="nav-link" to="/">
-                <img src={igicon}></img>
-              </Link>
-              <Link className="nav-link" to="/">
-              <img src={inicon}></img>
-              </Link>
-              <Link className="nav-link" to="/">
-              <img src={yticon}></img>
-              </Link>
+            <Nav.Link href="https://www.instagram.com/crear_good/"><img src={igicon}/></Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/jenny-franco/"><img src={inicon}/></Nav.Link>
+            <Nav.Link href="https://www.youtube.com/channel/UCXY_6zfccY-yccy5xV6IgEA"><img src={yticon}/></Nav.Link>  
             </Nav>
           </Nav>
         </Navbar.Collapse>
@@ -60,28 +54,5 @@ const NavBar = () => {
     </Navbar>
   );
 };
-
-
-  /* <div>
-            
-        <Navbar collapseOnSelect expand="md" fixed='top'>
-            <Container className="navbar-container">
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav id="navbar">
-                        <Navbar.Brand><Nav.Link className="nav-brand" to="/" >CTG</Nav.Link></Navbar.Brand>
-                        <Nav className="ms-auto">
-                        <Link className="nav-link mx-1" to="/">Inicio</Link>
-                        <Link className="nav-link mx-1" to="/Acerca-De">Sobre Mí</Link>
-                        <Link className="nav-link mx-1" to="/Portfolio">Portfolio</Link>
-                        <Link className="nav-link mx-1" to="/Contacto">Contacto</Link>
-                        </Nav>
-                    </Nav>
-                </Navbar.Collapse>
-            </Container>
-        </Navbar>
-
-    </div> */
-
 
 export default NavBar;

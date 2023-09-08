@@ -27,16 +27,17 @@ function App() {
             Diseños creativos a medida de tus necesidades
           </p>
         </div>
-        {home_mock.map((data, index) => <HomeItem item={data} index={index} />)}
+        {home_mock.map((data, index) => (
+          <HomeItem item={data} index={index} />
+        ))}
         <div className="home-products-container">
           <p className="home-products-title">PRODUCTOS</p>
           <div className="home-products">
             <Swiper
               slidesPerView={1}
               spaceBetween={10}
-              navigation={true} //botones 
+              navigation={true} //botones
               grabCursor={true}
-              loop={true}
               breakpoints={{
                 900: {
                   slidesPerView: 2,
@@ -50,14 +51,16 @@ function App() {
               modules={[Navigation]}
               className="mySwiper"
             >
-              {products_mock.map(data => (
+              {products_mock.map((data) => (
                 <SwiperSlide>
                   <img src={data[0].img} />
-                </SwiperSlide>))
-              }
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
-          <button className="home-more-btn">VER MÁS</button>
+          <div className="home-more-btn-container">
+            <button className="home-more-btn">VER MÁS</button>
+          </div>
         </div>
       </div>
     </Layout>
