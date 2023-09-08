@@ -555,6 +555,7 @@ line-height: 46px;
 letter-spacing: 0em;
 text-align: center;
 padding-top: 100px;
+padding-bottom: 40px;
 
 }
 
@@ -568,4 +569,38 @@ letter-spacing: 0em;
 text-align: left;
 margin-left: 10%;
 margin-right: 10%;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .corchetes-quienessomos2 {
+    background-image: url(./assets/corchetes2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 30%;
+    background-position-y: center;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+}
+
+.titulo-valores{
+  padding: 80px;
+  font-family: Pacifico;
+font-size: 71px;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: center;
+color: #F2BD67;
+}
+
+.titulo-quienessomos{
+  font-family: Barlow;
+font-size: 22px;
+font-weight: 700;
+line-height: 31px;
+letter-spacing: 0em;
+text-align: center;
+color: #F2BD67;
+
 }
