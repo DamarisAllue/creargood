@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/wave2.css'; // Importa el archivo de estilo específico
+import "../styles/quienessomos.css"
 
 const quienessomosItem = ({ item, index }) => {
     const { titulo, texto, img } = item;
