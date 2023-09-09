@@ -12,12 +12,13 @@ import ubiicon from "../assets/ubicacionicon.png"
 import mailicon from "../assets/mailicon.png"
 
 
-const Footer = () => {
+const Footer = ({color}) => {
   const navigate = useNavigate();
   const itemUrl = "/Productos";
+  const styles = color ? {backgroundColor: color, marginTop: 0} : null
   return (
 
-    <Container className="footer">
+    <Container className="footer" style={styles}>
       <Row className="elements-footer">
         <Col onClick={() => { navigate('/') }}>
           <img

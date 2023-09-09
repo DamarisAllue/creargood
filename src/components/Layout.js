@@ -5,14 +5,14 @@ import WhatsAppLink from './whatsapplink';
 
 
 
-export const Layout = ({children, fondo, banner, titulo}) => {
+export const Layout = ({children, fondo, banner, titulo, color}) => {
     return (
         <div className="layout">
             <NavBar />
             <Banner fondo={fondo} banner={banner} titulo={titulo}/>
             {children}
             <WhatsAppLink />
-            <Footer />
+            <Footer color={color}/>
         </div>
     )
 }

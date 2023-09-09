@@ -25,7 +25,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="d-flex nav-items m-auto">
-            <NavDropdown title="Productos" id="collasible-nav-dropdown" onClick={() => navigate(itemUrl)}>
+            <NavDropdown title="PRODUCTOS" id="collasible-nav-dropdown" onClick={() => navigate(itemUrl)}>
               <NavDropdown.Item onClick={() => navigate(itemUrl)}>
                 TARJETAS & DIJES
               </NavDropdown.Item>
@@ -40,9 +40,9 @@ const NavBar = () => {
                 REGALOS INSTITUCIONALES
               </NavDropdown.Item>
             </NavDropdown>
-            <Link className="nav-link mx-1" to="/Faq">Preguntas Frecuentes</Link>
-            <Link className="nav-link mx-1" to="/quienessomos">¿Quienes Somos?</Link>
-            <Link className="nav-link mx-1" to="/contacto">Contacto</Link>
+            <Link className="nav-link mx-1" to="/Faq">PREGUNTAS FRECUENTES</Link>
+            <Link className="nav-link mx-1" to="/quienessomos">¿QUIENES SOMOS?</Link>
+            <Link className="nav-link mx-1" to="/contacto">CONTACTO</Link>
             <Nav className="nav-icons">
             <Nav.Link href="https://www.instagram.com/crear_good/"><img src={igicon}/></Nav.Link>
             <Nav.Link href="https://www.linkedin.com/in/jenny-franco/"><img src={inicon}/></Nav.Link>

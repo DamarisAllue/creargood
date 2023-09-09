@@ -4,18 +4,21 @@ import banner from "./assets/imagenHERO.png";
 import { home_mock } from "./mocks/home_mock";
 import HomeItem from "./components/HomeItem";
 import { products_mock } from "./mocks/products_mock";
-import { Navigation } from "swiper/modules";
+import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
+import play from "./assets/play-icon.png";
+import { useNavigate } from "react-router-dom";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { useState } from "react";
+import ReactPlayer from "react-player";
 
 function App() {
-  const [slides, setSlides] = useState(products_mock);
+  const playIcon = <img src={play} alt="play-icon"/>;
+  const navigate = useNavigate();
   return (
-    <Layout banner={banner}>
+    <Layout banner={banner} color={'#F6B2BF'}>
       <div className="home">
         <div className="home-title-container">
           <div className="home-title">
@@ -34,34 +37,53 @@ function App() {
           <p className="home-products-title">PRODUCTOS</p>
           <div className="home-products">
             <Swiper
+              watchSlidesProgress={true}
               slidesPerView={1}
-              spaceBetween={10}
-              navigation={true} //botones
-              grabCursor={true}
+              pagination={true}
               breakpoints={{
-                900: {
+                600: {
                   slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                900: {
+                  slidesPerView: 3,
                   spaceBetween: 20,
                 },
                 1250: {
                   slidesPerView: 4,
-                  spaceBetween: 50,
+                  spaceBetween: 20,
+                },
+                1800: {
+                  slidesPerView: 5,
+                  spaceBetween: 20,
                 },
               }}
-              modules={[Navigation]}
+              modules={[Pagination]}
               className="mySwiper"
             >
               {products_mock.map((data) => (
                 <SwiperSlide>
-                  <img src={data[0].img} />
+                  <img
+                    src={data[0].img}
+                    className="carousel-img"
+                    alt="carousel-product-img"
+                  />
                 </SwiperSlide>
               ))}
             </Swiper>
           </div>
           <div className="home-more-btn-container">
-            <button className="home-more-btn">VER MÁS</button>
+            <button className="home-more-btn" onClick={() => navigate("/productos")}>VER MÁS</button>
           </div>
         </div>
+      </div>
+      <div className="video-container">
+        <p className="video-title">¿Cómo trabajamos?</p>
+        <ReactPlayer
+          playIcon={playIcon}
+          light={true}
+          url={"https://www.youtube.com/watch?v=8APqXh7NSzs"}
+        />
       </div>
     </Layout>
   );
