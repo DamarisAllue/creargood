@@ -4,6 +4,7 @@
     /* Centra horizontalmente */
     height: 80vh;
     /* Establece la altura del contenedor al 100% del viewport */
+    margin: 20px;
 }
 
 .form-contacto {
@@ -106,10 +107,10 @@ button[type="submit"]:hover {
     .corchetes-contacto {
         background-image: url(../assets/corchetes.png);
         background-repeat: no-repeat;
-        background-size: 100% 100%;
+        background-size: 100% 80%;
         margin-left: 30%;
         margin-right: 30%;
         background-position-y: center;
-        max-height: 100px;
+        max-height: 130px;
     }
 }
