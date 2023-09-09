@@ -50,188 +50,199 @@ import Regalo12 from "../assets/Regalos/12 Abanicos Japones.jpg"
 export const products_mock = [
     [
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta1 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta1,
+            info: "Tarjeta Bautizo con dije 1 (cruz-corazón D) Tarjeta de 9cm x 9cm Dije bioplástico de 4 cm x 5 cm"
+
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta2 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta2,
+            info: " Tarjeta Bautizo con dije 2 (angeles) Tarjeta de 9cm x 9cm Dije bioplástico  de 4 cm x 5 cm "
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta3 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta3,
+            info: "Tarjeta Comunión  con dije 3 (jesús) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 5 cm Papel ilustración gr 150"
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta4 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta4,
+            info: "Tarjeta Comunión con dije 4 (corazón) Tarjeta de 7cm x 10cm Dije bioplástico  de 4 cm x 4 cm"
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta5 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta5,
+            info: "Tarjeta Comunión  con dije 5 (jesús) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 5 cm"
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta6 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta6,
+            info: "Tarjeta Primera  con dije 6 (Angel 1) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 6 cm"
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta7 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta7,
+            info: " Tarjeta Primera Comunion  con dije 7 (corazón lleno) Tarjeta de 7cm x 10cm Dije bioplástico  de 4cm x 4 cm"
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta8 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta8,
+            info: "Tarjeta Comunión  con dije 8 (corazón cruz I) Tarjeta de 7cm x 10cm Dije bioplástico  de 5cm x 5 cm"
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta9 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta9,
+            info: "Tarjeta Comunión  con dije 9 ( cruz ) Tarjeta de 5cm x 14cm Dije bioplástico  de 4 cm x 5 cm"
         },
         {
-            categoria: "Tarjestas & Dijes",
-            img: tarjeta10 
+            categoria: "Tarjetas & Dijes",
+            img: tarjeta10,
+            info: "Souvenirs Comunion Dije cruz 3D y virgen en crochet Tamaño 6cm x 8cm"
         }
     ],
     [
         {
             categoria: "Dijes de Mesa",
-            img: Dije1
+            img: Dije1,
         },
         {
             categoria: "Dijes de Mesa",
-            img: Dije2
+            img: Dije2,
         },
         {
             categoria: "Dijes de Mesa",
-            img: Dije3
+            img: Dije3,
         },
         {
             categoria: "Dijes de Mesa",
-            img: Dije4
+            img: Dije4,
         },
         {
             categoria: "Dijes de Mesa",
-            img: Dije5
+            img: Dije5,
         },
         {
             categoria: "Dijes de Mesa",
-            img: Dije6
+            img: Dije6,
         },
         {
             categoria: "Dijes de Mesa",
-            img: Dije7
+            img: Dije7,
         },
         {
             categoria: "Dijes de Mesa",
-            img: Dije8
+            img: Dije8,
         }
     ],
     [
         {
             categoria: "Regalos & Recuerdos",
-            img: Recuerdo1
+            img: Recuerdo1,
         },
         {
             categoria: "Regalos & Recuerdos",
-            img: Recuerdo2
+            img: Recuerdo2,
         },
         {
             categoria: "Regalos & Recuerdos",
-            img: Recuerdo3
+            img: Recuerdo3,
         },
         {
             categoria: "Regalos & Recuerdos",
-            img: Recuerdo4
+            img: Recuerdo4,
         },
         {
             categoria: "Regalos & Recuerdos",
-            img: Recuerdo5
+            img: Recuerdo5,
         },
         {
             categoria: "Regalos & Recuerdos",
-            img: Recuerdo6
+            img: Recuerdo6,
         },
         {
             categoria: "Regalos & Recuerdos",
-            img: Recuerdo7
+            img: Recuerdo7,
         }
     ],
     [
         {
             categoria: "Toppers 3D",
-            img: Topper1
+            img: Topper1,
         },
         {
             categoria: "Toppers 3D",
-            img: Topper2
+            img: Topper2,
         },
         {
             categoria: "Toppers 3D",
-            img: Topper3
+            img: Topper3,
         },
         {
             categoria: "Toppers 3D",
-            img: Topper4
+            img: Topper4,
         },
         {
             categoria: "Toppers 3D",
-            img: Topper5
+            img: Topper5,
         },
         {
             categoria: "Toppers 3D",
-            img: Topper6
+            img: Topper6,
         },
         {
             categoria: "Toppers 3D",
-            img: Topper7
+            img: Topper7,
         }
     ],
     [
         {
             categoria: "Regalos institucionales",
-            img: Regalo1
+            img: Regalo1,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo2
+            img: Regalo2,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo3
+            img: Regalo3,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo4
+            img: Regalo4,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo5
+            img: Regalo5,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo6
+            img: Regalo6,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo7
+            img: Regalo7,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo8
+            img: Regalo8,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo9
+            img: Regalo9,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo10
+            img: Regalo10,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo11
+            img: Regalo11,
         },
         {
             categoria: "Regalos institucionales",
-            img: Regalo12
+            img: Regalo12,
         }
     ]   
 ]

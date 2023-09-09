@@ -1,12 +1,12 @@
-import React from "react";
-import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
 
-const Carousel = ({ items}) => {
-  const {categoria} = items[0]
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+
+const Carousel = ({ items, onImageClick }) => {
+  const { categoria } = items[0];
 
   return (
     <div className="carousel-container">
@@ -14,7 +14,7 @@ const Carousel = ({ items}) => {
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
-        navigation={true} //botones 
+        navigation={true}
         grabCursor={true}
         loop={true}
         breakpoints={{
@@ -29,19 +29,22 @@ const Carousel = ({ items}) => {
           1900: {
             slidesPerView: 4,
             spaceBetween: 20,
-          }
+          },
         }}
-        modules={[Navigation]}
         className="mySwiper"
       >
-        {items.map((data) => (
-          <SwiperSlide>
-            <img src={data.img} className="carousel-img" alt="product-img"/>
+        {items.map((data, index) => (
+          <SwiperSlide key={index}>
+            <img
+              src={data.img}
+              className="carousel-img"
+              alt={`Product ${index}`}
+              onClick={() => onImageClick(data)}
+            />
           </SwiperSlide>
         ))}
       </Swiper>
     </div>
-
   );
 };
 
