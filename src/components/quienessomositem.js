@@ -10,7 +10,7 @@ const quienessomosItem = ({ item, index }) => {
     return (
         <div className={`row`} style={background}>
             <div className="col-lg-6">
-                <img src={img} alt="Producto 1" style={{ objectFit: "cover", width: "80%", margin: "5%", width: "90%" }} />
+                <img src={img} alt="Producto 1" style={{ objectFit: "cover", margin: "5%", width: "90%" }} />
             </div>
             <div className={`col-lg-6 quienessomos-item-info `} style={styles}>
                 <p className="quienessomos-item-title my-2">{titulo}</p>
