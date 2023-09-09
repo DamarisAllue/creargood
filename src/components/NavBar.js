@@ -12,10 +12,23 @@ import { useNavigate } from "react-router-dom";
 const NavBar = () => {
   const navigate = useNavigate();
   const itemUrl = "/Productos";
+
+  const navbarStyle = {
+    position: "fixed", // Establece la posición fija
+    top: 0, // Fija el Navbar en la parte superior de la pantalla
+    width: "100%", // Ocupa todo el ancho
+    zIndex: 1000, // Ajusta el índice z para que esté por encima de otros elementos
+  };
+
   return (
-    <Navbar collapseOnSelect expand="lg" className="" >
-      <Container style={{background: "#fff"}}>
-        <Navbar.Brand onClick={() => {navigate('/')}}>
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      className=""
+      style={navbarStyle} // Aplica el estilo de posición fija al Navbar
+    >
+      <Container>
+        <Navbar.Brand onClick={() => navigate('/')}>
           <img
             src={brand}
             className="brand"
@@ -44,9 +57,9 @@ const NavBar = () => {
             <Link className="nav-link mx-1" to="/quienessomos">¿QUIENES SOMOS?</Link>
             <Link className="nav-link mx-1" to="/contacto">CONTACTO</Link>
             <Nav className="nav-icons">
-            <Nav.Link href="https://www.instagram.com/crear_good/"><img src={igicon} className="nav-icon" alt="instagram"/></Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/jenny-franco/"><img src={inicon} className="nav-icon" alt="linkedin"/></Nav.Link>
-            <Nav.Link href="https://www.youtube.com/channel/UCXY_6zfccY-yccy5xV6IgEA"><img src={yticon} className="nav-icon" alt="youtube"/></Nav.Link>  
+              <Nav.Link href="https://www.instagram.com/crear_good/"><img src={igicon} className="nav-icon" alt="instagram"/></Nav.Link>
+              <Nav.Link href="https://www.linkedin.com/in/jenny-franco/"><img src={inicon} className="nav-icon" alt="linkedin"/></Nav.Link>
+              <Nav.Link href="https://www.youtube.com/channel/UCXY_6zfccY-yccy5xV6IgEA"><img src={yticon} className="nav-icon" alt="youtube"/></Nav.Link>  
             </Nav>
           </Nav>
         </Navbar.Collapse>
