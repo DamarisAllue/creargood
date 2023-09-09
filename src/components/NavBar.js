@@ -44,9 +44,9 @@ const NavBar = () => {
             <Link className="nav-link mx-1" to="/quienessomos">¿QUIENES SOMOS?</Link>
             <Link className="nav-link mx-1" to="/contacto">CONTACTO</Link>
             <Nav className="nav-icons">
-            <Nav.Link href="https://www.instagram.com/crear_good/"><img src={igicon}/></Nav.Link>
-            <Nav.Link href="https://www.linkedin.com/in/jenny-franco/"><img src={inicon}/></Nav.Link>
-            <Nav.Link href="https://www.youtube.com/channel/UCXY_6zfccY-yccy5xV6IgEA"><img src={yticon}/></Nav.Link>  
+            <Nav.Link href="https://www.instagram.com/crear_good/"><img src={igicon} className="nav-icon" alt="instagram"/></Nav.Link>
+            <Nav.Link href="https://www.linkedin.com/in/jenny-franco/"><img src={inicon} className="nav-icon" alt="linkedin"/></Nav.Link>
+            <Nav.Link href="https://www.youtube.com/channel/UCXY_6zfccY-yccy5xV6IgEA"><img src={yticon} className="nav-icon" alt="youtube"/></Nav.Link>  
             </Nav>
           </Nav>
         </Navbar.Collapse>

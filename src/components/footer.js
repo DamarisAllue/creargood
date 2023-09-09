@@ -10,11 +10,11 @@ import yticon from "../assets/yt.png"
 import wspicon from "../assets/whatsappicon.png"
 import ubiicon from "../assets/ubicacionicon.png"
 import mailicon from "../assets/mailicon.png"
+import "../styles/footer.css"
 
 
 const Footer = ({color}) => {
   const navigate = useNavigate();
-  const itemUrl = "/Productos";
   const styles = color ? {backgroundColor: color, marginTop: 0} : null
   return (
 
@@ -23,7 +23,7 @@ const Footer = ({color}) => {
         <Col onClick={() => { navigate('/') }}>
           <img
             src={Logofooter}
-            className="logofooter"
+            className="logo-footer"
             alt="Logo creargood"></img>
         </Col>
 
@@ -31,19 +31,19 @@ const Footer = ({color}) => {
           <Stack gap={3}>
             <a href="https://www.google.com.ar/maps/place/Alta+C%C3%B3rdoba,+C%C3%B3rdoba/@-31.3902559,-64.2052717,14z/data=!3m1!4b1!4m6!3m5!1s0x9432985b2cb6a353:0xcfc1886e13ad8ffc!8m2!3d-31.3901321!4d-64.1851893!16s%2Fg%2F121v7v88?entry=ttu" className="texto-p">
               <div className="footer-contactos">
-                <img src={ubiicon} className="contact-icon" alt="ubicacion"></img>
+                <img src={ubiicon} className="contact-icon1" alt="ubicacion"></img>
                 <p>Córdoba Cápital, Alta Córdoba</p>
               </div>
             </a>
             <a href="https://wa.me/5493515913974" target="_blank" rel="noopener noreferrer" className="texto-p">
               <div className="footer-contactos">
-                <img src={wspicon} className="contact-icon" alt="numero de whatsapp"></img>
+                <img src={wspicon} className="contact-icon2" alt="numero de whatsapp"></img>
                 <p>+54 9-351 5913974</p>
               </div>
             </a>
             <a href="mailto:CrearGood1@gmail.com" className="texto-p">
               <div className="footer-contactos">
-                <img src={mailicon} className="contact-icon" alt="correo electronico"></img>
+                <img src={mailicon} className="contact-icon3" alt="correo electronico"></img>
                 <p>CrearGood1@gmail.com</p>
               </div>
             </a>
