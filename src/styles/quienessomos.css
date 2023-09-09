@@ -2,10 +2,11 @@
     .corchetes-quienessomos1 {
         background-image: url(../assets/corchetes.png);
         background-repeat: no-repeat;
-        background-size: 100% 60%;
+        background-size: 100% 35%;
         background-position-y: center;
-        margin-left: 15%;
-        margin-right: 15%;
+        max-height: 450px;
+        margin-left: 18%;
+        margin-right: 18%;
     }
 }
 
