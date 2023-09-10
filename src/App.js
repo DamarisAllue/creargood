@@ -68,7 +68,7 @@ function App() {
                     className="carousel-img"
                     alt="carousel-product-img"
                     onClick={() => {
-                      navigate("/Productos");
+                      navigate(`/Productos#${data[0].id}`);
                     }}
                   />
                 </SwiperSlide>

@@ -7,11 +7,11 @@ import "../styles/carrusel.css"
 
 
 const Carousel = ({ items, onImageClick }) => {
-  const { categoria } = items[0];
+  const { categoria, id } = items[0];
 
   return (
     <div className="carousel-container">
-      <p className="carousel-title">{categoria}</p>
+      <p className="carousel-title" id={id}>{categoria}</p>
       <Swiper
         slidesPerView={1}
         spaceBetween={10}
@@ -27,7 +27,7 @@ const Carousel = ({ items, onImageClick }) => {
             slidesPerView: 3,
             spaceBetween: 20,
           },
-          1900: {
+          1850: {
             slidesPerView: 4,
             spaceBetween: 20,
           },
