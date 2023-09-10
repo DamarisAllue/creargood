@@ -6,7 +6,7 @@ const quienessomosItem = ({ item, index }) => {
     const { titulo, texto, img } = item;
     console.log(item);
     const styles = index % 2 === 0 ? { order: -1 } : { order: 12 };
-    const background = index % 2 === 0 ? { background: "#FDDDAA", width: "100%" } : { background: "#FEF5A6", width: "100%" };
+    const background = index % 2 === 0 ? { background: "#FDDDAA", minwidth: "100%" } : { background: "#FEF5A6", minwidth: "100%" };
 
     return (
         <div className={`row`} style={background}>
