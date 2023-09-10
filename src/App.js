@@ -15,10 +15,10 @@ import "swiper/css/navigation";
 import ReactPlayer from "react-player";
 
 function App() {
-  const playIcon = <img src={play} alt="play-icon"/>;
+  const playIcon = <img src={play} alt="play-icon" />;
   const navigate = useNavigate();
   return (
-    <Layout banner={banner} color={'#F6B2BF'}>
+    <Layout banner={banner} color={"#F6B2BF"}>
       <div className="home">
         <div className="home-title-container">
           <div className="home-title">
@@ -67,23 +67,35 @@ function App() {
                     src={data[0].img}
                     className="carousel-img"
                     alt="carousel-product-img"
+                    onClick={() => {
+                      navigate(`/Productos#${data[0].id}`);
+                    }}
                   />
                 </SwiperSlide>
               ))}
             </Swiper>
           </div>
           <div className="home-more-btn-container">
-            <button className="home-more-btn" onClick={() => navigate("/productos")}>VER MÁS</button>
+            <button
+              className="home-more-btn"
+              onClick={() => navigate("/productos")}
+            >
+              VER MÁS
+            </button>
           </div>
         </div>
       </div>
       <div className="video-container">
         <p className="video-title">¿Cómo trabajamos?</p>
-        <ReactPlayer
-          playIcon={playIcon}
-          light={true}
-          url={"https://www.youtube.com/watch?v=8APqXh7NSzs"}
-        />
+        <div className="video">
+          <ReactPlayer
+            playIcon={playIcon}
+            light={true}
+            width="100%"
+            height="100%"
+            url={"https://www.youtube.com/watch?v=8APqXh7NSzs"}
+          />
+        </div>
       </div>
     </Layout>
   );

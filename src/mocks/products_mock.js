@@ -51,6 +51,7 @@ export const products_mock = [
     [
         {
             categoria: "Tarjetas & Dijes",
+            id: "TarjetasDijes",
             img: tarjeta1,
             info: "Tarjeta Bautizo con dije 1 (cruz-corazón D) Tarjeta de 9cm x 9cm Dije bioplástico de 4 cm x 5 cm"
 
@@ -104,6 +105,7 @@ export const products_mock = [
     [
         {
             categoria: "Dijes de Mesa",
+            id: "DijesMesa",
             img: Dije1,
         },
         {
@@ -138,6 +140,7 @@ export const products_mock = [
     [
         {
             categoria: "Regalos & Recuerdos",
+            id: "RegalosRecuerdos",
             img: Recuerdo1,
         },
         {
@@ -168,6 +171,7 @@ export const products_mock = [
     [
         {
             categoria: "Toppers 3D",
+            id: "Toppers",
             img: Topper1,
         },
         {
@@ -198,6 +202,7 @@ export const products_mock = [
     [
         {
             categoria: "Regalos institucionales",
+            id: "RegalosInstitucionales",
             img: Regalo1,
         },
         {

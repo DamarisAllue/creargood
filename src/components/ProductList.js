@@ -3,11 +3,13 @@ import { Layout } from './Layout';
 import Carousel from './Carousel';
 import { products_mock } from '../mocks/products_mock';
 import Modal from './modal';
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
 const ProductList = () => {
     const fondo = '#F6B2BF';
     const titulo = 'Productos';
-
+    const prop = useParams();
     const [modalData, setModalData] = useState(null);
 
     const showProductModal = (productData) => {
@@ -17,6 +19,15 @@ const ProductList = () => {
     const closeProductModal = () => {
         setModalData(null);
     };
+    useEffect(() => {
+        console.log(prop)
+        if (window.location.hash) {
+          const targetElement = document.querySelector(window.location.hash);
+          if (targetElement) {
+            targetElement.scrollIntoView({ behavior: 'smooth' });
+          }
+        }
+      }, [prop]);
 
     return (
         <Layout fondo={fondo} titulo={titulo}>

@@ -38,18 +38,18 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="d-flex nav-items m-auto">
-            <NavDropdown title="PRODUCTOS" id="collasible-nav-dropdown" onClick={() => navigate(itemUrl)}>
-              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
+            <NavDropdown title="PRODUCTOS" id="collasible-nav-dropdown">
+              <NavDropdown.Item onClick={() => navigate("/productos#TarjetasDijes")}>
                 TARJETAS & DIJES
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
+              <NavDropdown.Item onClick={() => navigate("/productos#DijesMesa")}>
                 DIJES DE MESA
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
+              <NavDropdown.Item onClick={() => navigate("/productos#RegalosRecuerdos")}>
                 REGALOS & RECUERDOS
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={() => navigate(itemUrl)}>TOPPERS 3D</NavDropdown.Item>
-              <NavDropdown.Item onClick={() => navigate(itemUrl)}>
+              <NavDropdown.Item onClick={() => navigate("/productos#Toppers")}>TOPPERS 3D</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate("/productos#RegalosInstitucionales")}>
                 REGALOS INSTITUCIONALES
               </NavDropdown.Item>
             </NavDropdown>
