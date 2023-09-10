@@ -166,6 +166,10 @@ export const products_mock = [
         {
             categoria: "Regalos & Recuerdos",
             img: Recuerdo7,
+        },
+        {
+            categoria: "Regalos & Recuerdos",
+            img: Recuerdo7,
         }
     ],
     [
@@ -193,6 +197,10 @@ export const products_mock = [
         {
             categoria: "Toppers 3D",
             img: Topper6,
+        },
+        {
+            categoria: "Toppers 3D",
+            img: Topper7,
         },
         {
             categoria: "Toppers 3D",
