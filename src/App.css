@@ -378,6 +378,9 @@
     width: 500px;
     height: 300px;
   }
+  .react-player__preview {
+    border-radius: 50px;
+  }
   .navbar-brand{
     position: absolute;
     top:0;
@@ -397,7 +400,10 @@
   }
   .video {
     width: 400px;
-    height: 200px;
+    height: 250px;
+  }
+  .react-player__preview {
+    border-radius: 40px;
   }
 }
 
@@ -410,8 +416,11 @@
     margin: 0 auto;
   }
   .video {
-    width: 360px;
+    width: 350px;
     height: 200px;
+  }
+  .react-player__preview {
+    border-radius: 30px;
   }
   .souvenir {
     color: var(--f-6-b-2-bf, #f6b2bf);

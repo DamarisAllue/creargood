@@ -15,7 +15,7 @@ import "../styles/footer.css"
 
 const Footer = ({color}) => {
   const navigate = useNavigate();
-  const styles = color ? {backgroundColor: color, marginTop: 0} : {backgroundColor: "#F5F5F5"}
+  const styles = color ? {backgroundColor: color, marginTop: 0} : {backgroundColor: "#F5F5F5", marginTop: 50}
   return (
 
     <Container className="footer" style={styles}>
