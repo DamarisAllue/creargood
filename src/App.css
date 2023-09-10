@@ -328,6 +328,10 @@
 .react-player__preview {
   border-radius: 60px;
 }
+.video{
+  width: 700px;
+  height: 400px;
+}
 @media screen and (max-width: 992px) {
   .brand {
     margin: 0;
@@ -362,6 +366,14 @@
     flex-direction: row;
     gap: 20px;
   }
+  .dropmenu-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .video{
+    width: 500px;
+    height: 300px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -375,11 +387,19 @@
   .Faq-info{
     font-size: 17px;
   }
+  .video{
+    width: 400px;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .faq-title {
     font-size: 52px;
+  }
+  .video{
+    width: 360px;
+    height: 200px;
   }
 }
 

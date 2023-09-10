@@ -1,4 +1,5 @@
 import { useState } from "react";
+import poligon from "../assets/Polygon 1.png";
 
 const FaqItem = ({ info }) => {
   const [drop, setDrop] = useState(false);
@@ -16,33 +17,11 @@ const FaqItem = ({ info }) => {
             className="dropmenu-button"
             style={{ transform: "rotate(180deg)" }}
           >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="58"
-              height="18"
-              viewBox="0 0 58 18"
-              fill="none"
-            >
-              <path
-                d="M29.223 17.3116L0.475016 1.11228L57.6601 0.572622L29.223 17.3116Z"
-                fill="#FDDDAA"
-              />
-            </svg>
+            <img src={poligon} className="dropmenu-icon"/>
           </button>
         ) : (
           <button onClick={dropmenu} className="dropmenu-button">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="58"
-              height="18"
-              viewBox="0 0 58 18"
-              fill="none"
-            >
-              <path
-                d="M29.223 17.3116L0.475016 1.11228L57.6601 0.572622L29.223 17.3116Z"
-                fill="#FDDDAA"
-              />
-            </svg>
+            <img src={poligon} className="dropmenu-icon"/>
           </button>
         )}
       </div>
