@@ -37,12 +37,15 @@ const Carousel = ({ items, onImageClick }) => {
       >
         {items.map((data, index) => (
           <SwiperSlide key={index}>
+            <div className='carrusel-item'>
             <img
               src={data.img}
               className="carousel-img"
               alt={`Product ${index}`}
               onClick={() => onImageClick(data)}
             />
+            <p className="carrusel-title" id={id}>{data.titulo}</p>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>

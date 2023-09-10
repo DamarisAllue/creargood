@@ -34,3 +34,11 @@
     border-right: 14px solid transparent; /* Borde derecho transparente */
     border-bottom: 15px solid #F6B2BF; /* Borde inferior (triángulo) */
   }
+
+  .carrusel-title{
+    font-family: Barlow;
+font-size: 21px;
+font-weight: 400;
+line-height: 30px;
+color:#424242;
+  }
