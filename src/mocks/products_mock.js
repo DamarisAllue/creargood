@@ -52,37 +52,44 @@ export const products_mock = [
         {
             categoria: "Tarjetas & Dijes",
             id: "TarjetasDijes",
+            titulo: "Tarjeta Bautizo con dije",
             img: tarjeta1,
             info: "Tarjeta Bautizo con dije 1 (cruz-corazón D) Tarjeta de 9cm x 9cm Dije bioplástico de 4 cm x 5 cm"
 
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "Tarjeta Bautizo con dije",
             img: tarjeta2,
             info: " Tarjeta Bautizo con dije 2 (angeles) Tarjeta de 9cm x 9cm Dije bioplástico  de 4 cm x 5 cm "
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "tarjeta 1",
             img: tarjeta3,
             info: "Tarjeta Comunión  con dije 3 (jesús) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 5 cm Papel ilustración gr 150"
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "",
             img: tarjeta4,
             info: "Tarjeta Comunión con dije 4 (corazón) Tarjeta de 7cm x 10cm Dije bioplástico  de 4 cm x 4 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "",
             img: tarjeta5,
             info: "Tarjeta Comunión  con dije 5 (jesús) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 5 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "",
             img: tarjeta6,
             info: "Tarjeta Primera  con dije 6 (Angel 1) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 6 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "",
             img: tarjeta7,
             info: " Tarjeta Primera Comunion  con dije 7 (corazón lleno) Tarjeta de 7cm x 10cm Dije bioplástico  de 4cm x 4 cm"
         },

@@ -37,6 +37,7 @@ const ProductList = () => {
                         key={index}
                         items={data}
                         onImageClick={showProductModal}
+                        titulo={titulo}
                     />
                 ))}
             </div>
