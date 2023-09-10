@@ -1,31 +1,43 @@
-
-  /* Estilos para el modal */
-  .modal {
-    display: block; /* Asegura que el modal sea visible */
+.modal {
+    display: block;
+    /* Asegura que el modal sea visible */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    background-color: rgba(0, 0, 0, 0.585);
+    /* Fondo oscuro semi-transparente */
+    z-index: 1000;
+    /* Asegura que esté por encima de otros elementos */
     overflow: auto;
-  }
-  
-  .modal-content {
+}
+
+.modal-content {
     background-color: #fff;
     margin: 15% auto;
-    padding: 20px;
     border: 1px solid #888;
-    max-width: 600px;
+    padding: 20px;
+    border-radius: 30px;
+    max-width: 500px;
+    max-height: 700px;
     position: relative;
-  }
-  
-  .close {
+}
+
+.close {
+    background-color: #fff;
+    border: 2px solid #2e2e2e;
+    border-radius: 20px;
     position: absolute;
     top: 0;
     right: 0;
-    padding: 10px;
+    padding: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
     cursor: pointer;
-  }
-  
+}
+
+.imagen-modal{
+    border-radius: 30px;
+
+}

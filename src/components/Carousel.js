@@ -1,9 +1,10 @@
-
 import React from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import 'swiper/css/navigation';
+import "../styles/carrusel.css"
+
 
 const Carousel = ({ items, onImageClick }) => {
   const { categoria } = items[0];
@@ -31,6 +32,7 @@ const Carousel = ({ items, onImageClick }) => {
             spaceBetween: 20,
           },
         }}
+        modules={[Navigation]}
         className="mySwiper"
       >
         {items.map((data, index) => (
