@@ -17,11 +17,11 @@ const FaqItem = ({ info }) => {
             className="dropmenu-button"
             style={{ transform: "rotate(180deg)" }}
           >
-            <img src={poligon} className="dropmenu-icon"/>
+            <img src={poligon} className="dropmenu-icon" alt="icono para abrir"/>
           </button>
         ) : (
           <button onClick={dropmenu} className="dropmenu-button">
-            <img src={poligon} className="dropmenu-icon"/>
+            <img src={poligon} className="dropmenu-icon" alt="icono para abrir"/>
           </button>
         )}
       </div>
