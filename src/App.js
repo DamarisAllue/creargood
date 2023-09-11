@@ -71,9 +71,11 @@ function App() {
                       navigate(`/Productos#${data[0].id}`);
                     }}
                   />
+                  <p className="carrusel-title">{data[0].categoria}</p>
                 </SwiperSlide>
               ))}
             </Swiper>
+            
           </div>
           <div className="home-more-btn-container">
             <button
