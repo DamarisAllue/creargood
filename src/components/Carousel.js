@@ -44,7 +44,7 @@ const Carousel = ({ items, onImageClick }) => {
               alt={`Product ${index}`}
               onClick={() => onImageClick(data)}
             />
-            <p className="carrusel-title" id={id}>{data.titulo}</p>
+            <p className="carrusel-title" id={id}>{data.info}</p>
             </div>
           </SwiperSlide>
         ))}

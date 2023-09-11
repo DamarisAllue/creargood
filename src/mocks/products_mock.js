@@ -52,58 +52,51 @@ export const products_mock = [
         {
             categoria: "Tarjetas & Dijes",
             id: "TarjetasDijes",
-            titulo: "Tarjeta Bautizo con dije",
             img: tarjeta1,
-            info: "Tarjeta Bautizo con dije 1 (cruz-corazón D)",
+            info: "Tarjeta Bautizo con dije (cruz-corazón D)",
             info2: "Tarjeta de 9cm x 9cm",
             info3: "Dije bioplástico de 4 cm x 5 cm"
 
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Tarjeta Bautizo con dije",
             img: tarjeta2,
-            info: " Tarjeta Bautizo con dije 2 (angeles)",
+            info: " Tarjeta Bautizo con dije (angeles)",
             info2: "Tarjeta de 9cm x 9cm",
             info3: "Dije bioplástico  de 4 cm x 5 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Tarjeta Comunión con dije",
             img: tarjeta3,
-            info: "Tarjeta Comunión  con dije 3 (jesús)  Dije bioplástico  de 3 cm x 5 cm Papel ilustración gr 150",
+            info: "Tarjeta Comunión  con dije (jesús)",
             info2: "Tarjeta de 7cm x 10cm",
             info3: "Dije bioplástico  de 3 cm x 5 cm",
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Tarjeta Comunión con dije",
             img: tarjeta4,
-            info: "Tarjeta Comunión con dije 4 (corazón)",
+            info: "Tarjeta Comunión con dije (corazón)",
             info2: "Tarjeta de 7cm x 10cm",
             info3: "Dije bioplástico  de 4 cm x 4 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Tarjeta Comunión con dije",
             img: tarjeta5,
-            info: "Tarjeta Comunión  con dije 5 (jesús)",
+            info: "Tarjeta Comunión  con dije (jesús)",
             info2: "Tarjeta de 7cm x 10cm",
             info3: "Dije bioplástico  de 3 cm x 5 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta6,
-            info: "Tarjeta Primera Comunion con dije 6 (Angel 1)",
+            info: "Tarjeta Primera Comunion con dije (Angel 1)",
             info2: "Tarjeta de 7cm x 10cm",
             info3: "Dije bioplástico  de 3 cm x 6 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta7,
-            info: "Tarjeta Primera Comunion  con dije 7 (corazón lleno)",
+            info: "Tarjeta Primera Comunion  con dije (corazón lleno)",
             info2: "Tarjeta de 7cm x 10cm",
             info3: "Dije bioplástico  de 4cm x 4 cm"
         },
@@ -111,21 +104,19 @@ export const products_mock = [
             categoria: "Tarjetas & Dijes",
             titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta8,
-            info: "Tarjeta Comunión  con dije 8 (corazón cruz I)",
+            info: "Tarjeta Comunión  con dije (corazón cruz I)",
             info2: "Tarjeta de 7cm x 10cm",
             info3: "Dije bioplástico  de 5cm x 5 cm" 
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta9,
-            info: "Tarjeta Comunión  con dije 9 ( cruz )",
+            info: "Tarjeta Comunión  con dije ( cruz )",
             info2: "Tarjeta de 5cm x 14cm",
             info3: "Dije bioplástico  de 4 cm x 5 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "Souvenirs Comunion Dije y virgen",
             img: tarjeta10,
             info: "Souvenirs Comunion",
             info2: "Dije cruz 3D y virgen en crochet",
@@ -135,7 +126,6 @@ export const products_mock = [
     [
         {
             categoria: "Dijes de Mesa",
-            titulo: "Angel Niña Dije de pie",
             id: "DijesMesa",
             img: Dije1,
             info: "Angel Niña",
@@ -144,7 +134,6 @@ export const products_mock = [
         },
         {
             categoria: "Dijes de Mesa",
-            titulo: "Angel Niño Dije de pie",
             img: Dije2,
             info: "Angel Niño",
             info2: "Dije de pie - 5,5cm x 7cm color o tamaño a elegir",
@@ -152,7 +141,6 @@ export const products_mock = [
         },
         {
             categoria: "Dijes de Mesa",
-            titulo: "Angel bebe Dije de pie",
             img: Dije3,
             info: "Angel bebe",
             info2: "Dije de pie - 5 cm x 6 cm color o tamaño a elegir",
@@ -160,7 +148,6 @@ export const products_mock = [
         },
         {
             categoria: "Dijes de Mesa",
-            titulo: "Mariposa Dije de pie",
             img: Dije4,
             info: "Mariposa/ 15 años -Cumpleaños",
             info2: "Dije de pie - 7 cm x 7 cm color o tamaño a elegir",
@@ -168,7 +155,6 @@ export const products_mock = [
         },
         {
             categoria: "Dijes de Mesa",
-            titulo: "Paloma de la paz Dije de pie",
             img: Dije5,
             info: "Paloma de la paz",
             info2: "Dije de pie - 7 cm x 6 cm color o tamaño a elegir",
@@ -176,7 +162,6 @@ export const products_mock = [
         },
         {
             categoria: "Dijes de Mesa",
-            titulo: "Cruz Dije de pie",
             img: Dije6,
             info: "Cruz",
             info2: "Dije de pie - 6 cm x 7 cm color o tamaño a elegir",
@@ -184,7 +169,6 @@ export const products_mock = [
         },
         {
             categoria: "Dijes de Mesa",
-            titulo: "Dije religiosos -llaveros Dije de pie",
             img: Dije7,
             info: "Dije religiosos - llaveros",
             info2: "Dije de pie - 5 cm x 5 cm color o tamaño a elegir",
@@ -192,7 +176,6 @@ export const products_mock = [
         },
         {
             categoria: "Dijes de Mesa",
-            titulo: "Dije religiosos, Topper y Adorno para torta",
             img: Dije8,
             info: "Dije religiosos - llaveros",
             info2: "Dije de pie - 5 cm x 5 cm color o tamaño a elegir",
@@ -202,7 +185,6 @@ export const products_mock = [
     [
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             id: "RegalosInstitucionales",
             img: Regalo1,
             info: "Recuerdo primer año personalizado",
@@ -211,7 +193,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo2,
             info: "Recuerdos primer año personalizado",
             info2: "Dimensiones: 6 cm diámetro",
@@ -219,7 +200,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo3,
             info: "Nombres personalizados",
             info2: "Dimensiones: 4 cm x 6cm",
@@ -235,7 +215,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo5,
             info: "LLaveros días especiales",
             info2: "Dimensiones: 5 cm x 6cm",
@@ -243,7 +222,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo6,
             info: "LLaveros dia del abuelo",
             info2: "Dimensiones: 5 cm x 5cm",
@@ -251,7 +229,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo7,
             info: "LLaveros dia del padre o madre",
             info2: "Dimensiones: 5 cm x 5cm",
@@ -259,7 +236,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo8,
             info: "Porta sahumerio",
             info2: "Dimensiones: 7 cm x 9cm",
@@ -267,7 +243,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo9,
             info: "Moto 3D",
             info2: "Dimensiones: 8 cm x 12cm",
@@ -275,7 +250,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo10,
             info: "Nombre y número 15 años",
             info2: "Dimensiones: varios",
@@ -283,7 +257,6 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo11,
             info: "Dije  número 15 años",
             info2: "dimensiones: 3cm de alto",
@@ -291,15 +264,15 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
-            titulo: "",
             img: Regalo12,
-            info: ""
+            info: "",
+            info2: "",
+            info3: "Material PLA bioplástico"
         }
     ],
     [
         {
             categoria: "Toppers 3D",
-            titulo: "",
             id: "Toppers",
             img: Topper1,
             info: "Topper Torta : Feliz cumpleaños",
@@ -308,7 +281,6 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            titulo: "",
             img: Topper2,
             info: "Topper Torta : Feliz cumpleaños con nombre",
             info2: "Dimensiones: 12 cm diámetro x 18cm alto",
@@ -316,7 +288,6 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            titulo: "",
             img: Topper3,
             info: "Topper Torta : Nombre personalizado",
             info2: "Dimensiones: 12 cm diámetro x 18cm alto",
@@ -324,7 +295,6 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            titulo: "",
             img: Topper4,
             info: "Topper Torta : Nombre circular con Dije",
             info2: "Dimensiones: 12 cm diámetro x 18cm alto",
@@ -332,7 +302,6 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            titulo: "",
             img: Topper5,
             info: "Topper Torta : Nombre personalizado solo",
             info2: "Dimensiones: 13 cm x 16cm alto",
@@ -340,7 +309,6 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            titulo: "",
             img: Topper6,
             info: "Topper Torta : Nombre personalizado con dije",
             info2: "Dimensiones: 13 cm x 16cm alto",
@@ -348,7 +316,6 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            titulo: "",
             img: Topper7,
             info: "Topper: FELIZ DIA DEL PADRE",
             info2: "Dimensiones: 13 cm x 16cm alto",
@@ -356,7 +323,6 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            titulo: "",
             img: Topper7,
             info: "Topper: FELIZ DIA DEL PADRE",
             info2: "Dimensiones: 13 cm x 16cm alto",
@@ -366,54 +332,48 @@ export const products_mock = [
     [
         {
             categoria: "Regalos institucionales",
-            titulo: "LLavero Promo personalizado",
             id: "RegalosRecuerdos",
             img: Recuerdo1,
-            info1: "LLavero Promo personalizado",
+            info: "LLavero Promo personalizado",
             info2: "Dimensiones: 8 cm x 4 cm",
             info3: "Material PLA bioplástico"
         },
         {
             categoria: "Regalos institucionales",
-            titulo: "LLavero Promo personalizado",
             img: Recuerdo2,
-            info1: "LLavero promo personalizados",
+            info: "LLavero promo personalizados",
             info2: "Dimensiones: 8 cm x 4 cm",
             info3: "Material PLA bioplástico"
             
         },
         {
             categoria: "Regalos institucionales",
-            titulo: "Mapa de Venezuela",
             img: Recuerdo3,
-            info1: "Mapa de Venezuela",
+            info: "Mapa de Venezuela",
             info2: "Dimensiones: 11 cm x 16 cm",
             info3: "Material PLA bioplástico"
             
         },
         {
             categoria: "Regalos institucionales",
-            titulo: " Mapas Personalizados",
             img: Recuerdo4,
-            info1: "Mapas Personalizados",
+            info: "Mapas Personalizados",
             info2: "Dimensiones: 11 cm x 16 cm",
             info3: "Material PLA bioplástico"
             
         },
         {
             categoria: "Regalos institucionales",
-            titulo: "LLaveros Mapa",
             img: Recuerdo5,
-            info1: "LLaveros Mapa",
+            info: "LLaveros Mapa",
             info2: "Dimensiones: 4 cm x 5 cm",
             info3: "Material PLA bioplástico"
             
         },
         {
             categoria: "Regalos institucionales",
-            titulo: "LLaveros institucional",
             img: Recuerdo6,
-            info1: "LLaveros institucional",
+            info: "LLaveros institucional",
             info2: "Dimensiones: 3 cm x 3 cm",
             info3: "Material PLA bioplástico"
             
@@ -421,15 +381,14 @@ export const products_mock = [
         {
             categoria: "Regalos institucionales",
             img: Recuerdo7,
-            info1: "",
+            info: "",
             info2: "",
             info3: "Material PLA bioplástico"
         },
         {
             categoria: "Regalos institucionales",
-            titulo: "LLaveros institucional",
             img: Recuerdo7,
-            info1: "",
+            info: "",
             info2: "",
             info3: "Material PLA bioplástico"
         }
