@@ -65,46 +65,49 @@ export const products_mock = [
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "tarjeta 1",
+            titulo: "Tarjeta Comunión con dije",
             img: tarjeta3,
             info: "Tarjeta Comunión  con dije 3 (jesús) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 5 cm Papel ilustración gr 150"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "",
+            titulo: "Tarjeta Comunión con dije",
             img: tarjeta4,
             info: "Tarjeta Comunión con dije 4 (corazón) Tarjeta de 7cm x 10cm Dije bioplástico  de 4 cm x 4 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "",
+            titulo: "Tarjeta Comunión con dije",
             img: tarjeta5,
             info: "Tarjeta Comunión  con dije 5 (jesús) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 5 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "",
+            titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta6,
-            info: "Tarjeta Primera  con dije 6 (Angel 1) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 6 cm"
+            info: "Tarjeta Primera Comunion con dije 6 (Angel 1) Tarjeta de 7cm x 10cm Dije bioplástico  de 3 cm x 6 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
-            titulo: "",
+            titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta7,
             info: " Tarjeta Primera Comunion  con dije 7 (corazón lleno) Tarjeta de 7cm x 10cm Dije bioplástico  de 4cm x 4 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta8,
             info: "Tarjeta Comunión  con dije 8 (corazón cruz I) Tarjeta de 7cm x 10cm Dije bioplástico  de 5cm x 5 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "Tarjeta Primera Comunion con dije",
             img: tarjeta9,
             info: "Tarjeta Comunión  con dije 9 ( cruz ) Tarjeta de 5cm x 14cm Dije bioplástico  de 4 cm x 5 cm"
         },
         {
             categoria: "Tarjetas & Dijes",
+            titulo: "Souvenirs Comunion Dije y virgen",
             img: tarjeta10,
             info: "Souvenirs Comunion Dije cruz 3D y virgen en crochet Tamaño 6cm x 8cm"
         }
@@ -112,149 +115,217 @@ export const products_mock = [
     [
         {
             categoria: "Dijes de Mesa",
+            titulo: "Angel Niña Dije de pie",
             id: "DijesMesa",
             img: Dije1,
+            info: "Angel Niña Dije de pie - 3,5cm x 5cm color o tamaño a elegir. Material PLA bioplástico"
         },
         {
             categoria: "Dijes de Mesa",
+            titulo: "Angel Niño Dije de pie",
             img: Dije2,
+            info: "Angel Niño Dije de pie - 5,5cm x 7cm color o tamaño a elegir. Material PLA bioplastico"
         },
         {
             categoria: "Dijes de Mesa",
+            titulo: "Angel bebe Dije de pie",
             img: Dije3,
+            info: "Angel bebe Dije de pie - 5 cm x 6 cm color o tamaño a elegir. Material PLA bioplástico"
         },
         {
             categoria: "Dijes de Mesa",
+            titulo: "Mariposa Dije de pie",
             img: Dije4,
+            info: "Mariposa/ 15 años -CumpleañosDije de pie - 7 cm x 7 cm color o tamaño a elegir. Material PLA bioplástico"
         },
         {
             categoria: "Dijes de Mesa",
+            titulo: "Paloma de la paz Dije de pie",
             img: Dije5,
+            info: "Paloma de la paz Dije de pie - 7 cm x 6 cm color o tamaño a elegir. Material PLA bioplástico"
         },
         {
             categoria: "Dijes de Mesa",
+            titulo: "Cruz Dije de pie",
             img: Dije6,
+            info: "Cruz Dije de pie - 6 cm x 7 cm color o tamaño a elegir. Material PLA bioplástico"
         },
         {
             categoria: "Dijes de Mesa",
+            titulo: "Dije religiosos -llaveros Dije de pie",
             img: Dije7,
+            info: "Dije religiosos -llaveros Dije de pie - 5 cm x 5 cm color o tamaño a elegir. Material PLA bioplástico"
         },
         {
             categoria: "Dijes de Mesa",
+            titulo: "Dije religiosos, Topper y Adorno para torta",
             img: Dije8,
+            info: ""
         }
     ],
     [
         {
             categoria: "Regalos & Recuerdos",
+            titulo: "LLavero Promo personalizado",
             id: "RegalosRecuerdos",
             img: Recuerdo1,
+            info: "LLavero Promo personalizado dimensiones: 8 cm x 4 cm. Material PLA bioplástico"
         },
         {
             categoria: "Regalos & Recuerdos",
+            titulo: "LLavero Promo personalizado",
             img: Recuerdo2,
+            info: "LLavero Promo personalizado dimensiones: 8 cm x 4 cm. Material PLA bioplástico"
         },
         {
             categoria: "Regalos & Recuerdos",
+            titulo: "Mapa de Venezuela",
             img: Recuerdo3,
+            info: "Mapa de Venezuela dimensiones: 11 cm x 16 cm. Material PLA bioplástico"
         },
         {
             categoria: "Regalos & Recuerdos",
+            titulo: " Mapas Personalizados",
             img: Recuerdo4,
+            info: "Mapas Personalizados dimensiones: 11 cm x 16 cm. Material PLA bioplástico"
         },
         {
             categoria: "Regalos & Recuerdos",
+            titulo: "LLaveros Mapa",
             img: Recuerdo5,
+            info: " LLaveros Mapa dimensiones: 4 cm x 5 cm. Material PLA bioplástico"
         },
         {
             categoria: "Regalos & Recuerdos",
+            titulo: "LLaveros institucional",
             img: Recuerdo6,
+            info: "LLaveros institucional dimensiones: 3 cm x 3 cm color rojo. Material PLA bioplástico"
         },
         {
             categoria: "Regalos & Recuerdos",
+            titulo: "LLaveros institucional",
             img: Recuerdo7,
+            info: "ional dimensiones: 3 cm x 3 cm color rojo. Material PLA bioplástico"
         }
     ],
     [
         {
             categoria: "Toppers 3D",
+            titulo: "",
             id: "Toppers",
             img: Topper1,
+            info: ""
         },
         {
             categoria: "Toppers 3D",
+            titulo: "",
             img: Topper2,
+            info: ""
         },
         {
             categoria: "Toppers 3D",
+            titulo: "",
             img: Topper3,
+            info: ""
         },
         {
             categoria: "Toppers 3D",
+            titulo: "",
             img: Topper4,
+            info: ""
         },
         {
             categoria: "Toppers 3D",
+            titulo: "",
             img: Topper5,
+            info: ""
         },
         {
             categoria: "Toppers 3D",
+            titulo: "",
             img: Topper6,
+            info: ""
         },
         {
             categoria: "Toppers 3D",
+            titulo: "",
             img: Topper7,
+            info: ""
         }
     ],
     [
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             id: "RegalosInstitucionales",
             img: Regalo1,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo2,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo3,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo4,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo5,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo6,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo7,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo8,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo9,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo10,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo11,
+            info: ""
         },
         {
             categoria: "Regalos institucionales",
+            titulo: "",
             img: Regalo12,
+            info: ""
         }
     ]   
 ]
