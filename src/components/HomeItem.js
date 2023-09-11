@@ -1,8 +1,13 @@
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const HomeItem = ({item, index}) => {
     const {titulo, texto, img} = item
     const navigate = useNavigate();
+    useEffect(() => {
+      // Desplázate al inicio de la página después de la redirección
+      window.scrollTo(0, 0);
+    }, []);
 
     const styles =index % 2 === 0 ? {order: 12, color: "#F2BD67"} : {order: -1, color: "#F6B2BF"}
 

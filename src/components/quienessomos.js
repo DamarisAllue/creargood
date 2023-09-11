@@ -3,9 +3,14 @@ import banner from "../assets/imagenHERORosa.png"
 import { quienessomos_mock } from "../mocks/quienessomos_mock";
 import QuienessomosItem from "../components/quienessomositem";
 import "../styles/quienessomos.css"
+import { useEffect } from 'react';
 
-const quienessomos = () => {
+const Quienessomos = () => {
     const titulo = "¿Quiénes somos?";
+    useEffect(() => {
+        // Desplázate al inicio de la página después de la redirección
+        window.scrollTo(0, 0);
+      }, []);
     return (
         <Layout banner={banner} titulo={titulo}>
 
@@ -33,4 +38,4 @@ const quienessomos = () => {
     );
 }
 
-export default quienessomos;
+export default Quienessomos;
