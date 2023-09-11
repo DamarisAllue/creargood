@@ -6,7 +6,7 @@ import home4 from "../assets/home4.png"
 export const home_mock = [
     {
         titulo: "Servicio de Diseño y modelado 3D",
-        texto: "Diseñamos de acuerdo a tus necesidades y el tema que estés buscando, empleando la digitalización y programas 3D para crear soluciones personalizadas. Además, te mantendremos involucrado en todo el proceso.",
+        texto: "Diseñamos de acuerdo a tus necesidades, el tema que estés buscando, empleando la digitalización y programas 3D para crear soluciones personalizadas. Además, te mantendremos involucrado en todo el proceso.",
         img: home1
     },
     {

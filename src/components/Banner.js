@@ -4,8 +4,8 @@ import wave from '../assets/wave.svg';
 const Banner = ({fondo, banner, titulo}) => { // Añadimos banner como prop
     const containerStyle = {
         position: 'relative',
-        height: '400px',
-        background: fondo ?  `${fondo} center/cover` :`url(${banner}) center/cover`,
+        height: '450px',
+        background: fondo ?  `${fondo} center/cover` :`url(${banner}) top/cover`,
         overflow: 'hidden',
     };
 
