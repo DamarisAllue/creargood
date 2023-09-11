@@ -41,6 +41,7 @@ function App() {
               watchSlidesProgress={true}
               slidesPerView={1}
               pagination={true}
+              grabCursor={true}
               breakpoints={{
                 600: {
                   slidesPerView: 2,
