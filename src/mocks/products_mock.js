@@ -203,9 +203,18 @@ export const products_mock = [
         },
         {
             categoria: "Regalos & Recuerdos",
+            img: Recuerdo7,
+        },
+        {
+            categoria: "Regalos & Recuerdos",
             titulo: "LLaveros institucional",
             img: Recuerdo7,
-            info: "ional dimensiones: 3 cm x 3 cm color rojo. Material PLA bioplástico"
+        },
+        {
+            categoria: "Regalos & Recuerdos",
+            titulo: "LLaveros institucional",
+            img: Recuerdo7,
+            info: "LLaveros institucional dimensiones: 3 cm x 3 cm color rojo. Material PLA bioplástico"
         }
     ],
     [
@@ -244,6 +253,18 @@ export const products_mock = [
             categoria: "Toppers 3D",
             titulo: "",
             img: Topper6,
+            info: ""
+        },
+        {
+            categoria: "Toppers 3D",
+            titulo: "",
+            img: Topper7,
+            info: ""
+        },
+        {
+            categoria: "Toppers 3D",
+            titulo: "",
+            img: Topper7,
             info: ""
         },
         {
