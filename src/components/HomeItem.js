@@ -4,7 +4,7 @@ const HomeItem = ({item, index}) => {
     const {titulo, texto, img} = item
     const navigate = useNavigate();
 
-    const styles =index % 2 == 0 ? {order: 12, color: "#F2BD67"} : {order: -1, color: "#F6B2BF"}
+    const styles =index % 2 === 0 ? {order: 12, color: "#F2BD67"} : {order: -1, color: "#F6B2BF"}
 
     return ( 
         <div className="row my-5">

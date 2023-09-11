@@ -11,7 +11,6 @@ import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const navigate = useNavigate();
-  const itemUrl = "/Productos";
 
   const navbarStyle = {
     position: "fixed", // Establece la posición fija
