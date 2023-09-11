@@ -20,11 +20,13 @@ import Dije8 from "../assets/Dijes/FOTO 8  KIT PRIMERA COMUNION.jpg"
 
 import Recuerdo1 from "../assets/Recuerdos/1 Llaveros promo.jpg"
 import Recuerdo2 from "../assets/Recuerdos/2 Llavero promo.jpg"
-import Recuerdo3 from "../assets/Recuerdos/3 Mapa de Venezuela.jpg"
-import Recuerdo4 from "../assets/Recuerdos/4 Mapa Personalizado.jpg"
-import Recuerdo5 from "../assets/Recuerdos/5 Llaveros mapa.jpg"
-import Recuerdo6 from "../assets/Recuerdos/6 Logo colegio cora.jpg"
-import Recuerdo7 from "../assets/Recuerdos/7 Llaveros cora.jpg"
+import Recuerdo3 from "../assets/Recuerdos/8 Promo 2023.jpg"
+import Recuerdo4 from "../assets/Recuerdos/3 Mapa de Venezuela.jpg"
+import Recuerdo5 from "../assets/Recuerdos/4 Mapa Personalizado.jpg"
+import Recuerdo6 from "../assets/Recuerdos/5 Llaveros mapa.jpg"
+import Recuerdo7 from "../assets/Recuerdos/6 Logo colegio cora.jpg"
+import Recuerdo8 from "../assets/Recuerdos/7 Llaveros cora.jpg"
+import Recuerdo9 from "../assets/Recuerdos/porta lapiz personalizado.png"
 
 import Topper1 from "../assets/Topper/Tooper 1.jpg"
 import Topper2 from "../assets/Topper/Tooper 2.jpg"
@@ -33,6 +35,7 @@ import Topper4 from "../assets/Topper/Tooper 4 .jpg"
 import Topper5 from "../assets/Topper/Tooper 5.jpg"
 import Topper6 from "../assets/Topper/Tooper 6.jpg"
 import Topper7 from "../assets/Topper/Topper 7  día del padre.jpg"
+import Topper8 from "../assets/Topper/Topper 8.jpg"
 
 import Regalo1 from "../assets/Regalos/1 Recuerdo Primer Año.jpg"
 import Regalo2 from "../assets/Regalos/2 Recuerdo Primer Año.jpg"
@@ -323,9 +326,9 @@ export const products_mock = [
         },
         {
             categoria: "Toppers 3D",
-            img: Topper7,
-            info: "Topper: FELIZ DIA DEL PADRE",
-            info2: "Dimensiones: 13 cm x 16cm alto",
+            img: Topper8,
+            info: "Topper Torta : Feliz cumpleaños con nombre",
+            info2: "Dimensiones: 12 cm diámetro x 18cm alto",
             info3: "Material PLA bioplástico"
         }
     ],
@@ -349,6 +352,14 @@ export const products_mock = [
         {
             categoria: "Regalos institucionales",
             img: Recuerdo3,
+            info: "LLavero promo personalizados",
+            info2: "Dimensiones: 8 cm x 4 cm",
+            info3: "Material PLA bioplástico"
+            
+        },
+        {
+            categoria: "Regalos institucionales",
+            img: Recuerdo4,
             info: "Mapa de Venezuela",
             info2: "Dimensiones: 11 cm x 16 cm",
             info3: "Material PLA bioplástico"
@@ -356,7 +367,7 @@ export const products_mock = [
         },
         {
             categoria: "Regalos institucionales",
-            img: Recuerdo4,
+            img: Recuerdo5,
             info: "Mapas Personalizados",
             info2: "Dimensiones: 11 cm x 16 cm",
             info3: "Material PLA bioplástico"
@@ -364,7 +375,7 @@ export const products_mock = [
         },
         {
             categoria: "Regalos institucionales",
-            img: Recuerdo5,
+            img: Recuerdo6,
             info: "LLaveros Mapa",
             info2: "Dimensiones: 4 cm x 5 cm",
             info3: "Material PLA bioplástico"
@@ -372,7 +383,7 @@ export const products_mock = [
         },
         {
             categoria: "Regalos institucionales",
-            img: Recuerdo6,
+            img: Recuerdo7,
             info: "LLaveros institucional",
             info2: "Dimensiones: 3 cm x 3 cm",
             info3: "Material PLA bioplástico"
@@ -380,17 +391,17 @@ export const products_mock = [
         },
         {
             categoria: "Regalos institucionales",
-            img: Recuerdo7,
+            img: Recuerdo8,
             info: "LLaveros al mayor",
             info2: "dimensiones: 3 cm x 3 cm ",
             info3: "Material PLA bioplástico"
         },
         {
             categoria: "Regalos institucionales",
-            img: Recuerdo7,
-            info: "LLaveros al mayor",
-            info2: "dimensiones: 3 cm x 3 cm ",
+            img: Recuerdo9,
+            info: " Diseño Porta Lápiz personalizado",
+            info2: "dimensiones: 12cm x 7cm",
             info3: "Material PLA bioplástico"
         }
-    ] 
+    ]
 ]

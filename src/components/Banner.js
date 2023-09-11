@@ -1,11 +1,14 @@
 import React from 'react';
 import wave from '../assets/wave.svg';
 
-const Banner = ({fondo, banner, titulo}) => { // Añadimos banner como prop
+const Banner = ({ fondo, banner, titulo }) => { // Añadimos banner como prop
     const containerStyle = {
         position: 'relative',
-        height: '450px',
-        background: fondo ?  `${fondo} center/cover` :`url(${banner}) top/cover`,
+        marginTop: "50px",
+        height: "40vw",
+        minHeight: "200px",
+        maxHeight: "550px",
+        background: fondo ? `${fondo} center/cover` : `url(${banner}) top/cover`,
         overflow: 'hidden',
     };
 
@@ -24,7 +27,7 @@ const Banner = ({fondo, banner, titulo}) => { // Añadimos banner como prop
         left: '50%', // Position at the middle horizontally
         transform: 'translate(-50%, -50%)', // Center it precisely
         zIndex: 2,
-      };
+    };
 
     return (
         <div className="banner-container" style={containerStyle}>
