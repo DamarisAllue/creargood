@@ -20,7 +20,7 @@
     padding: 20px;
     border-radius: 30px;
     max-width: 500px;
-    max-height: 700px;
+    max-height: 750px;
     position: relative;
 }
 
@@ -36,12 +36,22 @@
     padding-left: 16px;
     padding-right: 16px;
     cursor: pointer;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
     font-weight: 5000;
 
 }
 
-.imagen-modal{
+.imagen-modal {
     border-radius: 30px;
+    max-height: 560px;
+}
+
+.info-modal {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 18px;
 }

@@ -17,7 +17,10 @@ const Modal = ({ closeModal, modalData }) => {
                     &times;
                 </span>
                 <img className="imagen-modal" src={modalData.img} alt={`Imagen del producto`} />
-                <p>{modalData.info}</p>
+                <p className='info-modal'>{modalData.info}</p>
+                <p className='info-modal'>{modalData.info2}</p>
+                <p className='info-modal'>{modalData.info3}</p>
+
             </div>
         </div>
     );
