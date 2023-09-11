@@ -14,7 +14,7 @@ const HomeItem = ({item, index}) => {
           <div className="col-lg-6 home-item-info" style={styles}>
             <p className="home-item-title my-2">{titulo}</p>
             <p className="home-item-texto my-3">{texto}</p>
-            <button className="home-item-btn my-3" onClick={() => navigate("/contacto")}>CONSULTAR</button>
+            <button className="home-item-btn my-3" onClick={() => navigate("/contacto/")}>CONSULTAR</button>
           </div>
         </div>
      );

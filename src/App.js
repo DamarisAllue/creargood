@@ -17,6 +17,7 @@ import ReactPlayer from "react-player";
 function App() {
   const playIcon = <img src={play} alt="play-icon" />;
   const navigate = useNavigate();
+
   return (
     <Layout banner={banner} color={"#F6B2BF"}>
       <div className="home">
@@ -80,7 +81,7 @@ function App() {
           <div className="home-more-btn-container">
             <button
               className="home-more-btn"
-              onClick={() => navigate("/productos")}
+              onClick={() => navigate("/productos/",{ replace: true })}
             >
               VER MÁS
             </button>

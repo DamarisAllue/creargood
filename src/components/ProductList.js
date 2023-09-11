@@ -20,12 +20,13 @@ const ProductList = () => {
         setModalData(null);
     };
     useEffect(() => {
-        console.log(prop)
         if (window.location.hash) {
           const targetElement = document.querySelector(window.location.hash);
           if (targetElement) {
             targetElement.scrollIntoView({ behavior: 'smooth' });
           }
+        } else{
+            window.scrollTo(0, 0);
         }
       }, [prop]);
 
