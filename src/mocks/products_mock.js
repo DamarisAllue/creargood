@@ -265,8 +265,8 @@ export const products_mock = [
         {
             categoria: "Regalos & Recuerdos",
             img: Regalo12,
-            info: "",
-            info2: "",
+            info: "Souvenirs abanico japonés  15 años",
+            info2: "dimensiones: 8cm de diametro",
             info3: "Material PLA bioplástico"
         }
     ],
@@ -381,15 +381,15 @@ export const products_mock = [
         {
             categoria: "Regalos institucionales",
             img: Recuerdo7,
-            info: "",
-            info2: "",
+            info: "LLaveros al mayor",
+            info2: "dimensiones: 3 cm x 3 cm ",
             info3: "Material PLA bioplástico"
         },
         {
             categoria: "Regalos institucionales",
             img: Recuerdo7,
-            info: "",
-            info2: "",
+            info: "LLaveros al mayor",
+            info2: "dimensiones: 3 cm x 3 cm ",
             info3: "Material PLA bioplástico"
         }
     ] 
