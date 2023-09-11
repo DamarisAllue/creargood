@@ -47,7 +47,9 @@ const NavBar = () => {
               <NavDropdown.Item onClick={() => navigate("/productos#RegalosRecuerdos")}>
                 REGALOS & RECUERDOS
               </NavDropdown.Item>
-              <NavDropdown.Item onClick={() => navigate("/productos#Toppers")}>TOPPERS 3D</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => navigate("/productos#Toppers")}>
+                TOPPERS 3D
+                </NavDropdown.Item>
               <NavDropdown.Item onClick={() => navigate("/productos#RegalosInstitucionales")}>
                 REGALOS INSTITUCIONALES
               </NavDropdown.Item>

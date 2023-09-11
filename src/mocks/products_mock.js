@@ -185,7 +185,7 @@ export const products_mock = [
     [
         {
             categoria: "Regalos & Recuerdos",
-            id: "RegalosInstitucionales",
+            id: "RegalosRecuerdos",
             img: Regalo1,
             info: "Recuerdo primer año personalizado",
             info2: "Dimensiones: 6 cm diámetro",
@@ -332,7 +332,7 @@ export const products_mock = [
     [
         {
             categoria: "Regalos institucionales",
-            id: "RegalosRecuerdos",
+            id: "RegalosInstitucionales",
             img: Recuerdo1,
             info: "LLavero Promo personalizado",
             info2: "Dimensiones: 8 cm x 4 cm",

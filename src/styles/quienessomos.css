@@ -90,8 +90,6 @@ padding: 80px;
     line-height: 41px;
     letter-spacing: 0em;
     text-align: center;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .puntos {
@@ -103,4 +101,8 @@ padding: 80px;
     text-align: center;
     color: #F2BD67;
     padding: 20px;
+}
+
+.row{
+    --bs-gutter-x: 0rem;
 }
