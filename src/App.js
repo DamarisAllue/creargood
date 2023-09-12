@@ -8,6 +8,7 @@ import { Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import play from "./assets/play-icon.png";
 import { useNavigate } from "react-router-dom";
+import thumbnail from "./assets/fondo-video.png";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -94,7 +95,7 @@ function App() {
         <div className="video">
           <ReactPlayer
             playIcon={playIcon}
-            light={true}
+            light={thumbnail}
             width="100%"
             height="100%"
             url={"https://www.youtube.com/watch?v=8APqXh7NSzs"}
